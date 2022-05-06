@@ -41,6 +41,10 @@ func deal(d deck, handSize int) (deck, deck) {
 
 }
 
+func test() {
+	fmt.Println("bdbdb ")
+}
+
 func (d deck) toString() string {
 	return strings.Join([]string(d), ",")
 }
