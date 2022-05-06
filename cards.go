@@ -1,6 +1,6 @@
-package main
+package cards
 
-func main() {
+func cards() {
 	cards := newDeck()
 	cards.shuffle()
 	cards.print()
