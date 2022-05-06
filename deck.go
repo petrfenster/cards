@@ -14,7 +14,7 @@ import (
 
 type deck []string
 
-func newDeck() deck {
+func NewDeck() deck {
 	cards := deck{}
 
 	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
@@ -30,7 +30,7 @@ func newDeck() deck {
 
 }
 
-func (d deck) print() {
+func (d deck) Print() {
 	for i, card := range d {
 		fmt.Println(i, card)
 	}
